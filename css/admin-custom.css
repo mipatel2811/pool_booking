@@ -1,0 +1,236 @@
+.household_member.hidden {
+    display: none;
+}
+
+#createuser table[role="presentation"] tr:first-child {
+    display: none;
+}
+
+#createuser table[role="presentation"] tr:nth-child(5) {
+    display: none;
+}
+
+#your-profile>h2:first-of-type,
+#your-profile>h2:nth-of-type(4) {
+    display: none;
+}
+
+#your-profile>table:first-of-type,
+#your-profile>table:nth-of-type(4) {
+    display: none;
+}
+
+#your-profile table:nth-of-type(3) tr:not(:first-child) {
+    display: none;
+}
+
+#your-profile .yoast-settings {
+    display: none;
+}
+
+.household_members {
+    width: 50%;
+}
+
+.household_members tr th {
+    padding: 15px 10px;
+}
+
+#createuser .member_profile_section table tr:not(:first-child),
+#createuser .membership_section table tr {
+    position: relative;
+}
+
+#createuser .member_profile_section table tr:not(:first-child) .overlay,
+#createuser .membership_section table tr .overlay,
+#your-profile .membership_section.ishousehold table tr .overlay,
+#your-profile .member_profile_section.ishousehold table tr:not(:first-child) .overlay,
+.household_member.edited .overlay {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    left: 10px;
+    right: 0;
+    height: 25px;
+    width: 60%;
+    z-index: 1000;
+}
+
+#your-profile .member_profile_section.ishousehold .contact_number_tr .overlay {
+    display: none;
+}
+
+.users-php .tablenav.top .alignleft.actions:not(.bulkactions) select:first-of-type,
+.users-php .tablenav.bottom .alignleft.actions:not(.bulkactions) select:first-of-type,
+.users-php .tablenav.bottom .alignleft.actions:not(.bulkactions) select:first-of-type+#changeit2,
+.users-php .tablenav.top .alignleft.actions:not(.bulkactions) select:first-of-type+#changeit {
+    display: none;
+}
+
+.pool_setting_form .section {
+    margin-top: 30px;
+}
+
+.form-table {
+    background: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.form-table td {
+    position: relative;
+}
+
+.form-table .misha-upl {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #B9C4CE;
+    padding: 5px;
+    text-align: center;
+}
+
+.form-table .misha-rmv {
+    font-size: 0;
+}
+
+.form-table .misha-rmv {
+    position: absolute;
+    right: -15px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    opacity: 1;
+    border: 2px solid #B9C4CE;
+    border-radius: 100%;
+}
+
+.form-table .misha-rmv:hover {
+    opacity: 1;
+}
+
+.form-table .misha-rmv:before,
+.form-table .misha-rmv:after {
+    position: absolute;
+    left: 8px;
+    content: ' ';
+    top: 4px;
+    height: 10px;
+    width: 2px;
+    background-color: #B9C4CE;
+}
+
+.form-table .misha-rmv:before {
+    transform: rotate(45deg);
+}
+
+.form-table .misha-rmv:after {
+    transform: rotate(-45deg);
+}
+
+.pool_setting_form .form-control,
+.pool_setting_form .wp-core-ui select {
+    border: 1px solid #B9C4CE;
+    border-radius: 0;
+    padding: 5px 24px 5px 8px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+/* .pool_setting_form input.form-control  { width:70px; } */
+
+.pool-options .form-control {
+    width: 690px;
+}
+
+.pool_setting_form select.form-control {
+    min-width: 60px;
+}
+
+#max_number_of_person {
+    border: 1px solid #B9C4CE;
+    border-radius: 0;
+    width: 70px;
+    height: 40px;
+}
+
+#remove_field {
+    font-size: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    opacity: 1;
+    border: 2px solid #0073aa;
+    border-radius: 100%;
+}
+
+#remove_field:hover {
+    opacity: 1;
+}
+
+#remove_field:before,
+#remove_field:after {
+    position: absolute;
+    left: 8px;
+    content: ' ';
+    top: 4px;
+    height: 10px;
+    width: 2px;
+    background-color: #0073aa;
+}
+
+#remove_field:before {
+    transform: rotate(45deg);
+}
+
+#remove_field:after {
+    transform: rotate(-45deg);
+}
+
+#wpcontent {
+    padding-right: 20px;
+}
+
+.post-type-ticket .fixed th#id {
+    width: 90px !important;
+}
+#pool_pdf{
+    min-width: 100%;
+}
+
+
+.ui-datepicker .ui-datepicker-calendar .ui-state-highlight a {
+    background: #A9A9A9	!important;
+    color: white;
+}
+
+.ui-datepicker-current-day .ui-state-active {
+    border: 1px solid #A9A9A9 !important;
+    background: #0079C2 !important;
+    color: #fff !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: none !important;
+    background: #A9A9A9;
+    color: #fff;
+}
+.column-role{
+	width: auto !important;
+}
+.admin_author #adminmenu li{
+    display: none;
+}
+.admin_author #dashboard-widgets-wrap{
+    display: none;
+}
+
+.admin_author #adminmenu #menu-posts-ticket,
+.admin_author #adminmenu #menu-dashboard{
+    display: block;
+}
